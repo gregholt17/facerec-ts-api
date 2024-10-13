@@ -24,8 +24,8 @@ jobs:
     
     - name: Build the Docker image
       run: |
-        docker build -t gregholt17/facerec-ts-api:latest .
+        docker build -t gregholt20/facerec-ts-api:latest .
     
     - name: Push the Docker image
       run: |
-        docker push gregholt17/facerec-ts-api:latest
+        docker push gregholt20/facerec-ts-api:latest
